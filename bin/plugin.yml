@@ -1,0 +1,13 @@
+name: Pshoes
+main: com.github.dublekfx.Pshoes.Pshoes
+version: 1.0
+commands:
+  pshoooes:
+    description: Obtain a pair of Pshoes!
+    usage: /pshoes
+    permission: pshoes.get
+    permission-message: Check your privilege! You don't have the right one.
+permissions:
+  pshoes.get:
+    description: Lets the player obtain pshoes
+    default: op
